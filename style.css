@@ -1,3 +1,7 @@
+/* ------------------------------------------------------------ */ 
+/* ------------------   A L L E   S I D E R  ------------------ */ 
+/* ------------------------------------------------------------ */ 
+
 :root {
     --gull-gul: #e6bd43;
     --graasvart: #252525;
@@ -12,6 +16,7 @@
 
     font-family: Verdana, sans-serif;
 }
+
 /* ------------------------------------------------------------ */ 
 /* ----------------------   B I L D E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
@@ -53,9 +58,40 @@
 /* ------------------------------------------------------------ */ 
 /* ----------------------   H E A D E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
+
 header {
-    border: orange 2px solid;
+    background-color: var(--hvit);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: blue 2px solid;
+
 }
+
+nav {
+    padding: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li, a {
+    text-decoration: none;
+    color: var(--svart);
+    padding: 0.5rem;
+}
+
+#contact-btn {
+    background-color: #e6bd43;
+    padding: 0.5rem;
+    font-weight: 500;
+}
+
 /* ------------------------------------------------------------ */ 
 /* -----------------------   I N D E X  ----------------------- */ 
 /* ------------------------------------------------------------ */ 
@@ -80,15 +116,6 @@ footer {
 .fa-square-instagram,
 .fa-linkedin {
     color: var(--hvit);
-}
-
-
-section {
-    border: blue 2px solid;
-}
-
-article {
-    border: purple 2px solid;
 }
 
 
