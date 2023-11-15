@@ -5,3 +5,7 @@ h1 {
 section {
     border: blue 2px solid;
 }
+
+article {
+    border: purple 2px solid;
+}
