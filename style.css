@@ -6,13 +6,56 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
     font-family: Verdana, sans-serif;
+}
+/* ------------------------------------------------------------ */ 
+/* ----------------------   B I L D E R  ---------------------- */ 
+/* ------------------------------------------------------------ */ 
+
+.header-image {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.header-image::before {
+    content: "";
+    background-image: url(IMG/river-5855081_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    opacity: 0.5;
+    position: absolute;
+}
+
+.header-image-texts {
+    position: relative;
+    color: var(--svart);
+    text-align: center;
 }
 
 /* ------------------------------------------------------------ */ 
 /* ----------------------   H E A D E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
-
+header {
+    border: orange 2px solid;
+}
 /* ------------------------------------------------------------ */ 
 /* -----------------------   I N D E X  ----------------------- */ 
 /* ------------------------------------------------------------ */ 
@@ -40,12 +83,6 @@ footer {
 }
 
 
-
-
-h1 {
-    color: red;
-}
-
 section {
     border: blue 2px solid;
 }
@@ -58,3 +95,7 @@ article {
 /* ------------------------------------------------------------ */ 
 /* MEDIA QUERY - Hvordan det skal se ut i desktop */
 /* ------------------------------------------------------------ */ 
+
+@media screen and (min-width: 600px) {
+  
+}
