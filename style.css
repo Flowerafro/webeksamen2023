@@ -1,3 +1,11 @@
+:root {
+    --gull-gul: #e6bd43;
+    --graasvart: #252525;
+    --svart: #000;
+    --hvit: #fff;
+}
+
+
 h1 {
     color: red;
 }
