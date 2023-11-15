@@ -33,7 +33,9 @@ footer {
     background-color: var(--graasvart);
 }
 
-.fa-brands {
+.fa-square-facebook, 
+.fa-square-instagram,
+.fa-linkedin {
     color: var(--hvit);
 }
 
