@@ -1,3 +1,7 @@
 h1 {
     color: red;
 }
+
+section {
+    border: blue 2px solid;
+}
