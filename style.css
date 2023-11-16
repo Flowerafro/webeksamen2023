@@ -19,27 +19,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.yellow-btn {
-    display: block;
-    width: 80%;
-    height: auto;
-
-    margin: 1rem;
-    padding: 0.8rem;
-
-    background-color: #e6bd43;
-    font-weight: 700;
-    color: var(--svart);
-    text-align: left;
-    line-height: 1.2rem;
-}
-
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+
+article {
+    margin: 1rem;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+p {
+    margin: 1rem;
 }
 
 
@@ -70,10 +66,11 @@ ul {
 li, a {
     text-decoration: none;
     color: var(--svart);
+    line-height: 1.1rem;
     padding: 0.5rem;
 }
 
-#contact-btn {
+#contact__btn {
     display: block;
     width: fit-content;
     height: auto;
@@ -87,20 +84,21 @@ li, a {
 /* -----------------------   I N D E X  ----------------------- */ 
 /* ------------------------------------------------------------ */ 
 
-.header-image {
+.headline {
     width: 100%;
     height: auto;
 
     position: relative;
 }
 
-.header-image::before {
+.headline::before {
     content: "";
     background-image: url(IMG/river-5855081_640.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
     
     top: 0px;
     right: 0px;
@@ -111,23 +109,43 @@ li, a {
     position: absolute;
 }
 
-.header-image-texts {
+#headline__container {
     position: relative;
 
     color: var(--svart);
     text-align: center;
     font-size: 0.9rem;
-
-    margin: 1rem;
-    padding: 1rem;
 }
 
-.main-header {
+.headline__title {
    margin: 1rem;
-   padding: 1rem;
-   line-height: 1.6rem;
+   padding: 1.2rem;
+   line-height: 2rem;
 
-   font-size: 1.5rem;
+   font-size: 1.8rem;
+}
+
+.yellow__btn {
+    display: block;
+    width: 80%;
+    height: auto;
+
+    margin: 1rem;
+    padding: 0.8rem;
+
+    background-color: #e6bd43;
+    font-weight: 700;
+    color: var(--svart);
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.headline__subtitle {
+    margin: 0.2rem;
+    padding: 0.2rem;
+    line-height: 1.7rem;
+
+    font-size: 1.4rem;
 }
 
 /*  ----------------------------------------------------------- */
