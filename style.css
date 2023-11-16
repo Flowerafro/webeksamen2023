@@ -10,7 +10,8 @@
     --svart: #000;
     --hvit: #fff;
 
-    --lightgrey: #e7e7e7;
+    --lightgrey: #f3f3f3;
+    /* Denne lyse gråfargen er lagt til da det er noen steder på nettstedet hvor det er en lysgrå-farge, som ikke finnes i fargekodene oppgitt i oppgaven*/
 }
 
 * {
@@ -26,8 +27,10 @@
 }
 
 #logo {
-    width: 80px;
+    width: 120px;
     margin: 1rem;
+
+    border: red 2px solid;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -274,10 +277,25 @@ li, a {
 
 .client__logos {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
 
-    border: red 2px solid;
+    padding: 0.5rem;
+}
+
+/* ------ Contact us ------ */
+
+.contact__section {
+    padding: 3rem;
+
+    background-color: var(--lightgrey);
+}
+
+.title__contact {
+    font-size: 1.1rem;
+
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 /* ------------------------------------------------------------ */ 
