@@ -24,27 +24,29 @@
 
     <main>
     
-        <section class="top__section">
-            <article class="top__container">
+        <section class="top__section top__portfolio">
+            <article class="top__container portfolio__container">
                 <h1 class="title__main">Portfolio</h1>
             </article>
         </section>
 
-        <section>
-            <article class="article__textleft">
+        <section class="portfolio__section">
+            <article class="portfolio__explore">
                 <h2 class="title__sub">Explore previous jobs</h2>
                 <!-- understrek i gult pseudo ::after ? -->
-                <a href="#cards-branding">Branding</a>
-                <a href="#cards-design">Design</a>
-                <a href="#cards-development">Development</a>
+            </article>
+            <article class="portfolio__jobs">
+                <a href="#cards-branding" class="portfolio__link">Branding</a>
+                <a href="#cards-design" class="portfolio__link">Design</a>
+                <a href="#cards-development" class="portfolio__link">Development</a>
             </article>
         </section>
 
-        <section>
+        <section class="portfolio">
             <h2>Branding</h2><!-- ARTIKKELKORT BRA x 4 -->
             <!-- understrek i gult pseudo ::after ? -->
             <figure>
-                <img src="https://placehold.co/400" alt="placeholder artikkelkort 1" title="placeholder photo1" class="product-card">
+                <img src="https://placehold.co/400" alt="placeholder artikkelkort 1" title="placeholder photo1">
                 <p>
                     <figcaption>Et harum quidem</figcaption>
                 </p>
@@ -69,7 +71,7 @@
             </figure>
         </section>
 
-        <section id="cards-design">
+        <section class="portfolio__design">
             <h2>Design</h2> <!-- ARTIKKELKORT DES x 3 -->
             <!-- understrek i gult pseudo ::after ? -->
             <figure>
@@ -92,7 +94,7 @@
             </figure>
         </section>
 
-        <section id="cards-development">
+        <section class="portfolio-development">
             <h2>Development</h2> <!-- ARTIKKELKORT DEV x 2 -->
             <!-- understrek i gult pseudo ::after ? -->
             <figure>
@@ -107,7 +109,9 @@
                     <figcaption>Et harum quidem</figcaption>
                 </p>
             </figure>
-        </section>
+        </section>  
+
+        
     </main>
 
     <footer>

@@ -30,28 +30,6 @@
 }
 
 /* ------------------------------------------------------------ */ 
-/* ----------------------   B I L D E R  ---------------------- */ 
-/* ------------------------------------------------------------ */ 
-
-.top__section::before {
-    content: "";
-    background-image: url(IMG/river-5855081_640.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
-    
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-
-    opacity: 0.5;
-    position: absolute;
-}
-
-/* ------------------------------------------------------------ */ 
 /* ----------------------   H E A D E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
 
@@ -92,11 +70,29 @@ li, a {
 }
 
 /* ------------------------------------------------------------ */ 
-/* -----------------------   I N D E X  ----------------------- */ 
+/* ------------------   I N D E X. H T M L  ------------------- */ 
 /* ------------------------------------------------------------ */ 
 
+/* section 1 - compelling headline + section 1 Portfolio*/ 
+.top__section::before {
+    content: "";
+    background-image: url(IMG/river-5855081_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
-/* section 1 - compelling headline */
+    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
+    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    opacity: 0.5;
+    position: absolute;
+}
+
 .top__section {
     width: 100%;
     height: 400px;
@@ -104,7 +100,6 @@ li, a {
 
     position: relative;
 }
-
 
 .top__container {
     position: relative;
@@ -118,9 +113,10 @@ li, a {
    margin: 1rem;
    padding: 1.2rem;
    line-height: 2rem;
-
    font-size: 1.8rem;
 }
+
+/* section 1 - compelling headline */
 
 .btn__yellow {
     display: block;
@@ -162,7 +158,7 @@ li, a {
     font-size: 1.3rem;
 }
 
-/* section 3 - about our comp */
+/* section 3 - about our company */
 
 #text__left {
     text-align: left;
@@ -242,12 +238,77 @@ li, a {
 
 
 /* ------------------------------------------------------------ */ 
-/* -----------------------   A B O U T  ----------------------- */ 
+/* -------------------   A B O U T.H T M L  ------------------- */ 
 /* ------------------------------------------------------------ */ 
 
 /* ------------------------------------------------------------ */ 
-/* --------------------   P R O D U C T S  -------------------- */ 
+/* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
+
+.top__portfolio {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----- explore previous jobs ----- */
+
+.portfolio__section {
+    padding: 1rem 3rem 2rem 3rem;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__explore {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__explore::after {
+    content: "";
+    background-color: var(--gull-gul);
+    width: 280px;
+    height: 3px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.portfolio__jobs {
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio__link {
+    border: var(--svart) 2px solid;
+    margin: 0.4rem;
+}
+
+/* ----- artikkelkort ------ */
+
+.portfolio__explore
+
+.portfolio__branding
+
+.portfolio__development
+
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cards__product 
 
 
 
