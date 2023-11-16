@@ -27,6 +27,7 @@
 
 #logo {
     width: 80px;
+    margin: 1rem;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -135,20 +136,21 @@ li, a {
 
 /* section 2 - enganging subheading */
 
-.service__section {
+.index__section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem; 
 }
 
-.service__article {
+.index__article {
     margin: 1rem;
     padding: 1rem;
 
     text-align: center;
 }
+
 
 .title__sub {
     margin: 0.2rem;
@@ -192,7 +194,23 @@ li, a {
     border: var(--svart) 2px solid;
 }
 
-/* section 4 - our services */
+/* section 4 - our services -- også på about.html  */
+
+.service__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.service__article {
+    margin: 1rem;
+    padding: 1rem;
+
+    text-align: center;
+}
 
 .fa-users, 
  .fa-cloud-arrow-up,
@@ -240,6 +258,21 @@ li, a {
 /* ------------------------------------------------------------ */ 
 /* -------------------   A B O U T.H T M L  ------------------- */ 
 /* ------------------------------------------------------------ */ 
+
+.client__section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+ .title__center{
+    font-size: 1.1rem;
+    text-align: center;
+}
 
 /* ------------------------------------------------------------ */ 
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
