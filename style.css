@@ -159,7 +159,7 @@ li, a {
     padding: 0.2rem;
     line-height: 1.7rem;
 
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 /* section 3 - about our comp */
@@ -202,31 +202,34 @@ li, a {
 .signup {
     background-color: var(--lightgrey);
     font-weight: 800;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-
-    border: 2px red solid;
-
-
+    font-size: 1.1rem;
+    padding: 0.8rem;
 }
 
 .signup__form {
-    border: 2px red solid;
-}
+    margin-top: -1rem;
 
-.signup__label {
-    border: 2px blue solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #email {
-    margin: 0.5rem;
-
-    border: 2px green solid;
+    border: none;
+    padding: 0.5rem;
+    width: 200px;
+    height: 50px;
 }
 
 #btn__signup {
     background-color: var(--gull-gul);
-
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.8rem;
+    width: 120px;
+    height: 50px;
 }
 
 
@@ -248,12 +251,24 @@ li, a {
 
 footer {
     background-color: var(--graasvart);
+    padding: 1rem;
+}
+
+.footer__copyright {
+    color: var(--hvit);
+    font-size: 0.8rem;
+}
+
+.footer__some {
+    display: flex;
+    flex-direction: row;
 }
 
 .fa-square-facebook, 
 .fa-square-instagram,
 .fa-linkedin {
     color: var(--hvit);
+    font-size: 1.5rem;
 }
 
 
