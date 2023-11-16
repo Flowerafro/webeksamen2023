@@ -334,6 +334,25 @@ li, a {
     line-height: 1.2rem;
 }
 
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    border: red 1px solid;
+}
+
+.contact__link {
+    display: flex;
+    justify-content: left;
+}
+
+.fa-location-pin, 
+.fa-phone,
+.fa-envelope {
+    margin: 0;
+}
+
 
 
 
