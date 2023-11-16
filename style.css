@@ -277,6 +277,7 @@ li, a {
     height: 3px;
     margin-left: 20px;
     margin-top: -10px;
+    margin-bottom: 1rem;
 }
 
 .portfolio__jobs {
@@ -295,31 +296,21 @@ li, a {
 /* ----- artikkelkort ------ */
 
 .portfoliocard__section {
-    border: red 2px solid;
-
-    margin: 1rem;
+    margin: 0;
+    padding: 1rem 3rem 2rem 3rem;
+    width: 100%;
+    height: auto;
 }
-
-.portfolio__cards {
-    display: flex;
-}
-
-.portfolio__explore
-
-.portfolio__branding
-
-.portfolio__development
 
 
 
 .cards {
-    width: 350px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    object-fit: cover;
+    object-position: center;
 }
-
-.cards__product 
-
-
 
 /* ------------------------------------------------------------ */ 
 /* ----------------------   F O O T E R  ---------------------- */ 
