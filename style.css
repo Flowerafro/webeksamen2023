@@ -78,7 +78,7 @@ li, a {
     padding: 0.5rem;
 }
 
-#contact__btn {
+#btn__contact {
     display: block;
     width: fit-content;
     height: auto;
@@ -92,6 +92,8 @@ li, a {
 /* -----------------------   I N D E X  ----------------------- */ 
 /* ------------------------------------------------------------ */ 
 
+
+/* section 1 - compelling headline */
 .headline {
     width: 100%;
     height: auto;
@@ -133,7 +135,7 @@ li, a {
    font-size: 1.8rem;
 }
 
-.yellow__btn {
+.btn__yellow {
     display: block;
     width: 80%;
     height: auto;
@@ -148,6 +150,8 @@ li, a {
     line-height: 1.2rem;
 }
 
+/* section 2 - enganging subheading */
+
 .headline__subtitle {
     margin: 0.2rem;
     padding: 0.2rem;
@@ -155,6 +159,38 @@ li, a {
 
     font-size: 1.4rem;
 }
+
+/* section 3 - about our comp */
+
+#headline__textleft {
+    text-align: left;
+    padding-left: 0.7rem;
+}
+
+.article__textleft {
+    text-align: left;
+    line-height: 1.3rem;
+    width: 75%;
+}
+
+#btn__border {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin-left: 0.9rem;
+    padding: 0.8rem;
+
+    font-weight: 700;
+    line-height: 1.2rem;
+    color: var(--svart);
+    border: var(--svart) 2px solid;
+}
+
+
+/* section 4 - our services */
+
+/* section 2 - engangin subheading */
+/* section 2 - engangin subheading */
 
 /*  ----------------------------------------------------------- */
 
