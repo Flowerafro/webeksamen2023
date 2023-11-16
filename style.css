@@ -298,6 +298,33 @@ li, a {
     padding-top: 1rem;
 }
 
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+#fname, 
+#subject,
+#message {
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#submit {
+    background-color: var(--gull-gul);
+    padding: 0.8rem;
+    border: none;
+    text-decoration: none;
+    font-weight: 700;
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
 /* ------------------------------------------------------------ */ 
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
