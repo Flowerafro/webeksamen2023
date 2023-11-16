@@ -265,12 +265,12 @@ li, a {
     height: auto;
 }
 
-.portfolio__explore {
+.portfolio__title {
     display: flex;
     flex-direction: column;
 }
 
-.portfolio__explore::after {
+.portfolio__title::after {
     content: "";
     background-color: var(--gull-gul);
     width: 280px;
@@ -294,6 +294,16 @@ li, a {
 
 /* ----- artikkelkort ------ */
 
+.portfoliocard__section {
+    border: red 2px solid;
+
+    margin: 1rem;
+}
+
+.portfolio__cards {
+    display: flex;
+}
+
 .portfolio__explore
 
 .portfolio__branding
@@ -303,9 +313,8 @@ li, a {
 
 
 .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 350px;
+    height: auto;
 }
 
 .cards__product 
