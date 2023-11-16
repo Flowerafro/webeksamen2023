@@ -29,8 +29,6 @@
 #logo {
     width: 120px;
     margin: 1rem;
-
-    border: red 2px solid;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -337,22 +335,33 @@ li, a {
 .contact__list {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-
-    border: red 1px solid;
 }
 
 .contact__link {
     display: flex;
     justify-content: left;
+    align-content: center;
 }
 
 .fa-location-pin, 
 .fa-phone,
 .fa-envelope {
-    margin: 0;
+    font-size: 20px ;
 }
 
+.fa-location-pin {
+    padding: 0.4rem;
+}
+
+.fa-phone, 
+.fa-envelope {
+    padding: 0.2rem;
+}
+
+.fa-location-pin,
+.fa-phone {
+    margin-right: 0.5rem;
+}
 
 
 
