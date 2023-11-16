@@ -2,6 +2,8 @@
 /* ------------------   A L L E   S I D E R  ------------------ */ 
 /* ------------------------------------------------------------ */ 
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;1,100&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 :root {
     --gull-gul: #e6bd43;
     --graasvart: #252525;
@@ -14,20 +16,80 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: Verdana, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.yellow-btn {
+    display: block;
+    width: 80%;
+    height: auto;
+
+    margin: 1rem;
+    padding: 0.8rem;
+
+    background-color: #e6bd43;
+    font-weight: 700;
+    color: var(--svart);
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+/* ------------------------------------------------------------ */ 
+/* ----------------------   H E A D E R  ---------------------- */ 
+/* ------------------------------------------------------------ */ 
+
+header {
+    background-color: var(--hvit);
+    padding: 1rem 0rem 0.7rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    padding: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li, a {
+    text-decoration: none;
+    color: var(--svart);
+    padding: 0.5rem;
+}
+
+#contact-btn {
+    display: block;
+    width: fit-content;
+    height: auto;
+
+    background-color: #e6bd43;
+    font-weight: 700;
+    color: var(--svart);
 }
 
 /* ------------------------------------------------------------ */ 
-/* ----------------------   B I L D E R  ---------------------- */ 
+/* -----------------------   I N D E X  ----------------------- */ 
 /* ------------------------------------------------------------ */ 
 
 .header-image {
     width: 100%;
-    height: 300px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 
     position: relative;
 }
@@ -51,50 +113,25 @@
 
 .header-image-texts {
     position: relative;
+
     color: var(--svart);
     text-align: center;
-}
+    font-size: 0.9rem;
 
-/* ------------------------------------------------------------ */ 
-/* ----------------------   H E A D E R  ---------------------- */ 
-/* ------------------------------------------------------------ */ 
-
-header {
-    background-color: var(--hvit);
+    margin: 1rem;
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    border: blue 2px solid;
-
 }
 
-nav {
-    padding: 0.5rem;
+.main-header {
+   margin: 1rem;
+   padding: 1rem;
+   line-height: 1.6rem;
+
+   font-size: 1.5rem;
 }
 
-ul {
-    list-style: none;
-    text-align: center;
-}
+/*  ----------------------------------------------------------- */
 
-li, a {
-    text-decoration: none;
-    color: var(--svart);
-    padding: 0.5rem;
-}
-
-#contact-btn {
-    background-color: #e6bd43;
-    padding: 0.5rem;
-    font-weight: 500;
-}
-
-/* ------------------------------------------------------------ */ 
-/* -----------------------   I N D E X  ----------------------- */ 
-/* ------------------------------------------------------------ */ 
 
 /* ------------------------------------------------------------ */ 
 /* -----------------------   A B O U T  ----------------------- */ 
