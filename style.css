@@ -81,9 +81,7 @@ li, a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
-    
+    /* PIXABAY: Link: https://pixabay.com/no/photos/elv-skog-t%C3%A5kete-skog-t%C3%A5kete-skoger-5855081/ */    
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -92,6 +90,8 @@ li, a {
     opacity: 0.5;
     position: absolute;
 }
+
+    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
 
 .top__section {
     width: 100%;
@@ -135,7 +135,7 @@ li, a {
 
 /* section 2 - enganging subheading */
 
-.index__section {
+.service__section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -143,7 +143,7 @@ li, a {
     padding: 1rem;
 }
 
-.index__article {
+.service__article {
     margin: 1rem;
     padding: 1rem;
 
