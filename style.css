@@ -9,6 +9,8 @@
     --graasvart: #252525;
     --svart: #000;
     --hvit: #fff;
+
+    --lightgrey: #e7e7e7;
 }
 
 * {
@@ -186,11 +188,20 @@ li, a {
     border: var(--svart) 2px solid;
 }
 
-
 /* section 4 - our services */
 
-/* section 2 - engangin subheading */
-/* section 2 - engangin subheading */
+.fa-users, 
+ .fa-cloud-arrow-up,
+ .fa-code,
+ .fa-wifi {
+    font-size: 1.8rem;
+ }
+
+/* section 5 - newsletter */
+
+#background__grey {
+    background-color: var(--lightgrey)
+}
 
 /*  ----------------------------------------------------------- */
 
