@@ -324,6 +324,19 @@ li, a {
     margin-top: 1rem;
 }
 
+/*  contact information */
+
+.contact__text{
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem; 
+    line-height: 1.2rem;
+}
+
+
+
+
 
 /* ------------------------------------------------------------ */ 
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
