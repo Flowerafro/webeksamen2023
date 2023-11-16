@@ -31,7 +31,7 @@ section {
 
 article {
     margin: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
 
     text-align: center;
 }
@@ -48,6 +48,27 @@ p {
     max-width: 350px; /* min width 200px*/
 }
 
+/* ------------------------------------------------------------ */ 
+/* ----------------------   B I L D E R  ---------------------- */ 
+/* ------------------------------------------------------------ */ 
+
+.top__section::before {
+    content: "";
+    background-image: url(IMG/river-5855081_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
+    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    opacity: 0.5;
+    position: absolute;
+}
 
 /* ------------------------------------------------------------ */ 
 /* ----------------------   H E A D E R  ---------------------- */ 
@@ -61,7 +82,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 nav {
@@ -96,32 +116,15 @@ li, a {
 
 
 /* section 1 - compelling headline */
-.headline {
+.top__section {
     width: 100%;
-    height: auto;
+    height: 400px;
 
     position: relative;
 }
 
-.headline::before {
-    content: "";
-    background-image: url(IMG/river-5855081_640.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
-    
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
 
-    opacity: 0.5;
-    position: absolute;
-}
-
-#headline__container {
+.top__container {
     position: relative;
 
     color: var(--svart);
@@ -129,7 +132,7 @@ li, a {
     font-size: 0.9rem;
 }
 
-.headline__title {
+.title__main {
    margin: 1rem;
    padding: 1.2rem;
    line-height: 2rem;
@@ -154,7 +157,7 @@ li, a {
 
 /* section 2 - enganging subheading */
 
-.headline__subtitle {
+.title__sub {
     margin: 0.2rem;
     padding: 0.2rem;
     line-height: 1.7rem;
@@ -164,7 +167,7 @@ li, a {
 
 /* section 3 - about our comp */
 
-#headline__textleft {
+#text__left {
     text-align: left;
     padding-left: 0.7rem;
 }
@@ -277,5 +280,11 @@ footer {
 /* ------------------------------------------------------------ */ 
 
 @media screen and (min-width: 600px) {
+    .top__section {
+        width: 100%;
+        max-height: 200px;
+    
+        position: relative;
+    }
   
 }
