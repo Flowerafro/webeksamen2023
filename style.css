@@ -199,9 +199,25 @@ li, a {
 
 /* section 5 - newsletter */
 
-#background__grey {
-    background-color: var(--lightgrey)
+.signup {
+    background-color: var(--lightgrey);
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 0.5rem;
 }
+
+.signup__form {
+    display: flex;
+}
+
+#email {
+    margin: 0.5rem;
+}
+
+#btn__signup {
+    background-color: var(--gull-gul);
+}
+
 
 /*  ----------------------------------------------------------- */
 
