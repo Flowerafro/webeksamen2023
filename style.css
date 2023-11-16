@@ -25,8 +25,8 @@
     background-color: var(--gull-gul);
 }
 
-.product-card {
-    max-width: 350px; /* min width 200px*/
+#logo {
+    width: 80px;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -265,24 +265,27 @@ li, a {
     height: auto;
 }
 
-.portfolio__title {
+.portfolio__box {
     display: flex;
     flex-direction: column;
 }
 
-.portfolio__title::after {
+.portfolio__box::after {
     content: "";
     background-color: var(--gull-gul);
     width: 280px;
     height: 3px;
-    margin-left: 20px;
     margin-top: -10px;
     margin-bottom: 1rem;
 }
 
+.portfolio__title {
+    padding-bottom: 1rem ;
+    font-size: 1.2rem;
+}
+
 .portfolio__jobs {
     margin-top: 2rem;
-    margin-left: 1rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -295,14 +298,6 @@ li, a {
 
 /* ----- artikkelkort ------ */
 
-.portfoliocard__section {
-    margin: 0;
-    padding: 1rem 3rem 2rem 3rem;
-    width: 100%;
-    height: auto;
-}
-
-
 
 .cards {
     width: 300px;
@@ -310,6 +305,14 @@ li, a {
     background-color: transparent;
     object-fit: cover;
     object-position: center;
+    margin-top: 1rem;
+}
+
+.card__text {
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1.5rem;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -319,6 +322,13 @@ li, a {
 footer {
     background-color: var(--graasvart);
     padding: 1rem;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .footer__copyright {
