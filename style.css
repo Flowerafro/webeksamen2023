@@ -173,13 +173,12 @@ li, a {
     width: 80%;
     height: auto;
     padding: 2.5rem;
+    margin-bottom: 1rem;
     text-align: left;
     line-height: 1.3rem;
 
     display: flex;
     flex-direction: column;
-
-    border: red 2px solid;
 }
 
 #text__left {
@@ -192,15 +191,18 @@ li, a {
     line-height: 1.7rem;
     font-size: 1.1rem;
     text-wrap: wrap;
-
-    border: red 2px solid;
 }
 
 #btn__border {
     margin-top: 1rem;
+    padding: 1rem;
     width: inherit;
+    height: auto;
+
     color: var(--svart);
-    border: var(--svart) 2px solid;
+    font-size: 1rem;
+    font-weight: 600;
+    border: var(--svart) 3px solid;
 }
 
 /* section 4 - our services -- også på about.html  */
@@ -231,36 +233,43 @@ li, a {
 /* section 5 - newsletter */
 
 .signup {
+    padding: 0.8rem;
+    
     background-color: var(--lightgrey);
+
     font-weight: 800;
     font-size: 1.1rem;
-    padding: 0.8rem;
+    text-align: center;
+    
 }
 
 .signup__form {
-    margin-top: -1rem;
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    padding-bottom: 1rem;
 }
 
 #email {
-    border: none;
-    padding: 0.5rem;
     width: 200px;
-    height: 50px;
+    height: 45px;
+    margin-right: 0.2rem;
+    padding: 0.5rem;
+    border: none;
 }
 
 #btn__signup {
+    width: 120px;
+    height: 45px;
+    padding: 0.8rem;
     background-color: var(--gull-gul);
     font-size: 0.8rem;
     font-weight: 700;
     text-align: center;
-    padding: 0.8rem;
-    width: 120px;
-    height: 50px;
+    
+    
 }
 
 
@@ -459,14 +468,16 @@ li, a {
 
 footer {
     background-color: var(--graasvart);
+   
     padding: 1rem;
 }
 
 .footer__section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    text-align: center;
+
+    padding: 1rem;
 }
 
 .footer__copyright {
@@ -477,6 +488,9 @@ footer {
 .footer__some {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+    padding: 1rem;
 }
 
 .fa-square-facebook, 
