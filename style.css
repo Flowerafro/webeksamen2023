@@ -77,12 +77,11 @@ ul {
 /* section 1 - compelling headline + section 1 Portfolio*/ 
 .top__section::before {
     content: "";
-    background-image: url(IMG/river-5855081_640.jpg);
+    background-image: url(IMG/river-5855081_640.jpg);    /* PIXABAY: Link: https://pixabay.com/no/photos/elv-skog-t%C3%A5kete-skog-t%C3%A5kete-skoger-5855081/ */    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* PIXABAY: Link: https://pixabay.com/no/photos/elv-skog-t%C3%A5kete-skog-t%C3%A5kete-skoger-5855081/ */    
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -162,7 +161,7 @@ ul {
 
 
 .title__sub {
-    margin: 0.2rem;
+    margin: 1rem;
     padding: 1rem;
     line-height: 1.7rem;
 
@@ -444,8 +443,6 @@ ul {
 
 
 
-
-
 /* ------------------------------------------------------------ */ 
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
@@ -502,15 +499,19 @@ ul {
 }
 
 .portfolio__link {
-    border: var(--svart) 2px solid;
-    text-decoration: none;
     margin: 0.4rem;
+    padding: 0.5rem;
+    border: var(--svart) 2px solid;
+    color: var(--svart);
+    text-decoration: none;
+    
 }
 
 /* ----- artikkelkort ------ */
 /* ---- finnes også på index.hmtl --- */ 
 .article__cards {
-    width: 300px;
+    min-width: 200px;
+    max-width: 350px;
     height: auto;
     background-color: transparent;
     object-fit: cover;
