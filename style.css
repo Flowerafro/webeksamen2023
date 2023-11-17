@@ -89,11 +89,10 @@ ul {
 /* section 1 - compelling headline + section 1 Portfolio*/ 
 .top__section::before {
     content: "";
-    background-image: url(https://pixabay.com/get/g9e8387bee9dd46d94657f524183e45e926b22562672ef955910ed7ef61a5612f54f2e28afd3e68bbd349563e6692e8dc1b04a8a05e38f5aae91dd056379fcef76ace62d88bf8f43269022567d41e6ef2_640.jpg); /* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/
+    background-image: url(https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg); /* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -471,10 +470,11 @@ ul {
 
     padding: 2rem;
 
-    background-image: url(https://pixabay.com/get/g9e8387bee9dd46d94657f524183e45e926b22562672ef955910ed7ef61a5612f54f2e28afd3e68bbd349563e6692e8dc1b04a8a05e38f5aae91dd056379fcef76ace62d88bf8f43269022567d41e6ef2_640.jpg); 
-/* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/    background-size: cover;
+    background-image: url(https://pixabay.com/no/photos/studere-skole-h%C3%B8yskole-nyc-7217599/); 
+    /*Bildet er tatt av <a href="https://pixabay.com/no/users/jothamsutharson-8715202/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7217599">Sam Jotham Sutharson</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7217599">Pixabay</a>*/
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.8;
 }
 
@@ -602,16 +602,40 @@ footer {
 
     body {
         display: grid;
-        grid-template-columns: 1fr min(90%, 1000px) 1fr; /* vil at innholdet skal fylle skjermen 95% frem til bredden er 40rem*/
+        grid-template-columns: 1fr min(45%, 1000px) 1fr; /* vil at innholdet skal fylle skjermen 95% frem til bredden er 40rem*/
         grid-template-rows: 5% 1fr 5%;
     }
+
+    /* ----- Header & navbar ----*/ 
 
     header {
         grid-column-start: 1;
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 1;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #btn__contact {
+        padding: 0.7rem;
+    }
+
+    .title__main {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+
+        border: red 2px solid;
+    }
+    /* ------ main index ------ */ 
+
 
     main  {
         grid-column-start: 1;
