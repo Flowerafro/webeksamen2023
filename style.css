@@ -603,7 +603,7 @@ footer {
     body {
         display: grid;
         grid-template-columns: 1fr min(90%, 1000px) 1fr; /* vil at innholdet skal fylle skjermen 95% frem til bredden er 40rem*/
-        grid-template-rows: 1fr 90% 1fr;
+        grid-template-rows: 5% 1fr 5%;
     }
 
     header {
@@ -628,11 +628,13 @@ footer {
     }
 
 
+    /*
    .grid {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
     }
 
+    
     .top__section {
         width: 100%;
         max-height: 500px;
@@ -658,8 +660,7 @@ footer {
     }
 
     .signup {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
+
+    }*/
   
 }
