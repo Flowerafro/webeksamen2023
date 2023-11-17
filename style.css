@@ -277,6 +277,66 @@ li, a {
 /* -------------------   A B O U T.H T M L  ------------------- */ 
 /* ------------------------------------------------------------ */ 
 
+/* --- about header picture --- */
+.about {
+    width: 100%;
+    height: 100vh; /* bakgrunnsbildet i demoen dekker nesten hele skjermens lenge */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    padding: 2rem;
+
+    background-image: url(https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg); /*https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: blue 2px solid;
+}
+
+.about__section {
+    background-color: var(--lightgrey);
+    opacity: 0.9;
+
+    padding: 2rem;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    padding: 1.5rem;
+}
+
+.about__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    text-wrap: wrap;
+    line-height: 1.3rem;
+    width: 60%;
+    height: auto;
+}
+
+.about__text {
+    width: 80%;
+    height: auto;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-wrap: wrap;
+}
+
+
+
+/* ---- Client ---- */
+
 .client__section {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -390,6 +450,8 @@ li, a {
 .top__portfolio {
     display: flex;
     justify-content: center;
+
+    height: 400px;
 }
 
 .portfolio__container {
