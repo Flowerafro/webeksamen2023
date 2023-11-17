@@ -237,6 +237,10 @@ ul {
 
 /* section 4 - our services -- også på about.html  */
 
+.service {
+    padding: 2rem;
+}
+
 .service__section {
     display: flex;
     flex-direction: column;
@@ -244,12 +248,10 @@ ul {
     align-items: center;
     
     width: 100%;
-    padding: 1rem;
 }
 
 .service__article {
     margin: 1rem;
-    padding: 1rem;
     width: 300px;
 
     text-align: center;
@@ -731,6 +733,10 @@ footer {
     }
 
     .about__title {
+        width: fit-content;
+    }
+
+    #btn__about {
         width: fit-content;
     }
 
