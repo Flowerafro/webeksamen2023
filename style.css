@@ -131,7 +131,6 @@ ul {
    padding: 1.2rem;
    
    line-height: 2.4rem;
-   letter-spacing: 0.1em;
    font-size: 2rem;
 }
 
@@ -282,7 +281,7 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    align-items: center;
+  
 
     padding-bottom: 1rem;
 }
