@@ -46,25 +46,24 @@ header {
     align-items: center;
 }
 
-nav {
-    padding: 0.5rem;
-}
-
 ul {
     list-style: none;
     text-align: center;
 }
 
-li, a {
+.links {
     text-decoration: none;
     color: var(--svart);
-    line-height: 1.1rem;
-    padding: 0.5rem;
+}
+
+.list__items {
+    margin: 1rem;
 }
 
 #btn__contact {
     width: 100px;
     height: auto;
+    padding: 0.4rem;
 
     background-color: #e6bd43;
     font-weight: 700;
@@ -133,6 +132,7 @@ li, a {
     text-align: left;
     line-height: 1.5rem;
     text-wrap: wrap;
+    text-decoration: none;
 }
 
 #btn__top {
@@ -204,6 +204,7 @@ li, a {
     color: var(--svart);
     font-size: 1rem;
     font-weight: 600;
+    text-decoration: none;
     border: var(--svart) 3px solid;
 }
 
@@ -255,9 +256,8 @@ li, a {
 }
 
 #email {
-    width: 200px;
+    width: 250px;
     height: 45px;
-    margin-right: 0.2rem;
     padding: 0.5rem;
     border: none;
 }
@@ -270,8 +270,7 @@ li, a {
     font-size: 0.8rem;
     font-weight: 700;
     text-align: center;
-    
-    
+    text-decoration: none;
 }
 
 
@@ -423,13 +422,14 @@ li, a {
 .contact__link {
     display: flex;
     justify-content: left;
-    align-content: center;
+    align-items: center;
 }
 
 .fa-location-pin, 
 .fa-phone,
 .fa-envelope {
     font-size: 20px ;
+    margin-right: 0.5rem;
 }
 
 .fa-location-pin {
@@ -441,10 +441,7 @@ li, a {
     padding: 0.2rem;
 }
 
-.fa-location-pin,
-.fa-phone {
-    margin-right: 0.5rem;
-}
+
 
 
 
@@ -506,6 +503,7 @@ li, a {
 
 .portfolio__link {
     border: var(--svart) 2px solid;
+    text-decoration: none;
     margin: 0.4rem;
 }
 
@@ -565,6 +563,7 @@ footer {
 .fa-square-instagram,
 .fa-linkedin {
     color: var(--hvit);
+    margin: 1rem;
     font-size: 1.5rem;
 }
 
