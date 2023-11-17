@@ -28,13 +28,10 @@
 
 body {
     display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
 
-  min-width: 400px; 
-    margin: 0 auto;
+    max-width: 1600px; 
 }
 
 #background__yellow {
@@ -604,10 +601,8 @@ footer {
 @media screen and (min-width: 600px) {
 
     body {
-        max-width: 1600px;
-
         display: grid;
-        grid-template-columns: 1fr 60% 1fr;
+        grid-template-columns: 1fr min(90%, 1000px) 1fr; /* vil at innholdet skal fylle skjermen 95% frem til bredden er 40rem*/
         grid-template-rows: 1fr 90% 1fr;
     }
 
