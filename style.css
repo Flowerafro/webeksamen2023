@@ -627,15 +627,39 @@ footer {
         grid-row-end: 3;
     }
 
+
+   .grid {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    }
+
     .top__section {
         width: 100%;
-        max-height: 200px;
+        max-height: 500px;
     
         position: relative;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .index__section {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .service__section {
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 
     .portfolio__section {
         flex-wrap: wrap;
+    }
+
+    .signup {
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
   
 }
