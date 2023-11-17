@@ -425,7 +425,7 @@ li, a {
 }
 
 /* ----- artikkelkort ------ */
-
+/* ---- finnes også på index.hmtl --- */ 
 .article__cards {
     width: 300px;
     height: auto;
@@ -436,9 +436,6 @@ li, a {
 
     display: flex;
     flex-direction: column;
-
-
-    border: red 2px solid;
 }
 
 .card__text {
