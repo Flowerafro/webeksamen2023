@@ -9,6 +9,7 @@
     --graasvart: #252525;
     --svart: #000;
     --hvit: #fff;
+    --hvitOpacity: #ffffffd7;
 
     --lightgrey: #f3f3f3;
     /* Denne lyse gråfargen er lagt til da det er noen steder på nettstedet hvor det er en lysgrå-farge, som ikke finnes i fargekodene oppgitt i oppgaven*/
@@ -62,8 +63,7 @@ li, a {
 }
 
 #btn__contact {
-    display: block;
-    width: fit-content;
+    width: 100px;
     height: auto;
 
     background-color: #e6bd43;
@@ -126,12 +126,6 @@ li, a {
 }
 
 .btn__yellow {
-    width: 300px;
-    height: auto;
-
-    margin: 1rem;
-    padding: 0.5rem 4.5rem 0.5rem 1rem;
-    
     background-color: #e6bd43;
 
     font-weight: 700;
@@ -139,6 +133,14 @@ li, a {
     text-align: left;
     line-height: 1.5rem;
     text-wrap: wrap;
+}
+
+#btn__top {
+    padding: 0.5rem 4.5rem 0.5rem 1rem;
+    width: 300px;
+    height: auto;
+
+    margin: 1rem;
 }
 
 /* section 2 - enganging subheading */
@@ -293,13 +295,10 @@ li, a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    border: blue 2px solid;
 }
 
 .about__section {
-    background-color: var(--lightgrey);
-    opacity: 0.9;
+    background-color: var(--hvitOpacity);
 
     padding: 2rem;
 }
@@ -330,6 +329,13 @@ li, a {
     text-align: left;
     font-size: 0.9rem;
     font-weight: 400;
+    text-wrap: wrap;
+}
+
+#btn__about {
+    padding: 0.8rem;
+    margin-top: 1rem;
+    width: 80%;
     text-wrap: wrap;
 }
 
