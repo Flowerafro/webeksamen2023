@@ -39,7 +39,7 @@ body {
 }
 
 #logo {
-    width: 120px;
+    width: 150px;
     margin: 1rem;
 }
 
@@ -390,13 +390,11 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-    padding: 0.5rem;
 }
 
 /* ------ Contact us ------ */
 
-.contact__section {
+.contact {
     padding: 3rem;
 
     background-color: var(--lightgrey);
@@ -738,6 +736,16 @@ footer {
 
     #btn__about {
         width: fit-content;
+    }
+
+    .title__center {
+        font-size: 2rem;
+    }
+
+    .client__logos {
+        display: flex;
+        margin: 1rem;
+        justify-content: center;
     }
 
     /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
