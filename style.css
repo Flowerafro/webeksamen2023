@@ -89,7 +89,8 @@ ul {
 /* section 1 - compelling headline + section 1 Portfolio*/ 
 .top__section::before {
     content: "";
-    background-image: url(https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg); /* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/
+    background-image: url(IMG/office-620817_640.png); 
+    /* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,7 +324,8 @@ ul {
 
     padding: 1rem;
 
-    background-image: url(https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg); /*https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg */
+    background-image: url(IMG/office-620817_640.png); 
+    /* Fotokreditt:     /* Fotokreditt: https://pixabay.com/no/photos/kontor-notater-notisblokk-gr%C3%BCnder-620817/  https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -499,8 +501,8 @@ input[type="text"] {
 
     padding: 2rem;
 
-    background-image: url(https://pixabay.com/no/photos/studere-skole-h%C3%B8yskole-nyc-7217599/); 
-    /*Bildet er tatt av <a href="https://pixabay.com/no/users/jothamsutharson-8715202/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7217599">Sam Jotham Sutharson</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7217599">Pixabay</a>*/
+    background-image: url(IMG/office-620817_640.png); 
+    /* Fotokreditt: https://pixabay.com/no/photos/kontor-notater-notisblokk-gr%C3%BCnder-620817/  */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -787,6 +789,8 @@ footer {
     }
 
     /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
+
+    
 
     /* ----------------------    F O O T E R   -------------------- */ 
 
