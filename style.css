@@ -543,14 +543,14 @@ input[type="text"] {
 
 /* section 2: explore previous jobs */
 
-.portfolio__section {
-    padding: 1rem 3rem 2rem 3rem;
-    margin: 0;
-    width: 100%;
-    height: auto;
-
+.portfolio {
     display: flex;
     flex-direction: column;
+    
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 3rem 3rem 0rem 3rem;
 }
 
 .portfolio__box {
@@ -561,22 +561,23 @@ input[type="text"] {
 .portfolio__box::after {
     content: "";
     background-color: var(--gull-gul);
-    width: 280px;
+    width: 350px;
     height: 3px;
     margin-top: -10px;
     margin-bottom: 1rem;
 }
 
 .portfolio__title {
-    padding-bottom: 1rem ;
+    margin-bottom: 1rem ;
     font-size: 1.2rem;
 }
 
 .portfolio__jobs {
-    margin-top: 2rem;
-
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
+
+    margin-top: 2rem;
 }
 
 .portfolio__link {
@@ -606,7 +607,7 @@ input[type="text"] {
 .card__text {
     font-weight: 700;
     font-size: 0.9rem;
-    margin-top: 0.4rem;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
 }
 
@@ -816,7 +817,15 @@ footer {
 
     /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 
-    
+    .portfolio {
+        padding: 3rem;
+        border: red 2px solid;
+    }
+
+    .portfolio__title {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+    }
 
     /* ----------------------    F O O T E R   -------------------- */ 
 
