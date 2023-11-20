@@ -56,7 +56,7 @@ header {
     justify-content: center;
     align-items: center;
     
-    padding: 1rem 0rem 0.7rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 ul {
@@ -70,19 +70,33 @@ ul {
 }
 
 .list__items {
-    margin: 1rem;
+    margin: 1.1rem;
+    font-size: 1.1rem;
 }
 
 #btn__contact {
-    width: 100px;
+    width: auto;
     height: auto;
-    padding: 0.4rem;
+    padding: 0.7rem;
 
     background-color: #e6bd43;
     font-weight: 700;
     color: var(--svart);
 }
 
+/* Markering for gjeldende side: */
+
+.active {
+    font-weight: 800;
+}
+
+.active::after {
+    content: "";
+    width: 90px;
+    height: 3px;
+    display: block;
+    border-bottom: var(--gull-gul) 3px solid;
+}
 
 /* ------------------------------------------------------------ */ 
 /* ------------------   I N D E X. H T M L  ------------------- */ 
