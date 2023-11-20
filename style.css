@@ -26,6 +26,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr;
@@ -79,7 +83,7 @@ ul {
     height: auto;
     padding: 0.7rem;
 
-    background-color: #e6bd43;
+    background-color: var(--gull-gul);
     font-weight: 700;
     color: var(--svart);
 }
@@ -92,9 +96,11 @@ ul {
 
 .active::after {
     content: "";
+    display: block;
     width: 90px;
     height: 3px;
-    display: block;
+    margin: 0 auto;
+    
     border-bottom: var(--gull-gul) 3px solid;
 }
 
@@ -143,7 +149,7 @@ ul {
     padding: 1rem;
     position: relative;
 
-    color: var(--svart);
+    color: var(--graasvart);
     text-align: center;
     font-size: 0.9rem;
     text-align: center;
@@ -171,10 +177,10 @@ ul {
 }
 
 .btn__yellow {
-    background-color: #e6bd43;
+    background-color: var(--gull-gul);
 
     font-weight: 700;
-    color: var(--svart);
+    color: var(--graasvart);
     text-align: left;
     line-height: 1.5rem;
     text-wrap: wrap;
@@ -331,6 +337,7 @@ ul {
     padding: 1.2rem;
     margin: 0.1rem;
     background-color: var(--gull-gul);
+    color: var(--svart);
    
     text-align: center;
     text-decoration: none;
@@ -585,7 +592,6 @@ iframe {
     border: var(--svart) 2px solid;
     color: var(--svart);
     text-decoration: none;
-    
 }
 
 /* ----- artikkelkort ------ */
@@ -695,6 +701,13 @@ footer {
         padding: 0.7rem;
     }
 
+    #btn__contact:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
+        font-weight: 700;
+        
+    }
+
     /* ------ main ------ */ 
 
     main  {
@@ -723,6 +736,11 @@ footer {
         text-wrap: nowrap;
     }
 
+     .btn__yellow:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
+    }
+
     #btn__top {
         width: 300px;
         padding: 0.8rem;
@@ -742,7 +760,6 @@ footer {
         text-wrap: wrap;
     }
 
-
     .section__left {
         display: flex;
         flex-direction: row;
@@ -757,6 +774,11 @@ footer {
         width: fit-content;
     }
 
+    #btn__border:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
+    }
+
     .service__section {
         display: flex;
         flex-direction: row;
@@ -764,7 +786,12 @@ footer {
     
     #email, 
     #btn__signup {
-        margin: 0.2rem;
+        margin: 0.1rem;
+    }
+
+    #btn__signup:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
     }
 
     /* -------------------   A B O U T.H T M L  ------------------- */
@@ -815,6 +842,11 @@ footer {
         margin-top: 0;
     }
 
+    #submit:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
+    }
+
     .contact__text {
         margin-bottom: 0.5rem;
     }
@@ -826,6 +858,12 @@ footer {
 
     .portfolio {
         padding: 3rem;
+    }
+
+    .portfolio__link:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
+        border: none;
     }
 
     .portfolio__title {
