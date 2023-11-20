@@ -502,8 +502,18 @@ input[type="text"] {
 }
 
 .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0;
-    padding: 2rem;
+    padding: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -511,32 +521,6 @@ input[type="text"] {
 /* ------------------------------------------------------------ */ 
 
 /* section 1: se seksjon 1 under Index.html */
-
-/*
-.top__portfolio {
-    width: 100%;
-    height: fit-content;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
-    padding: 2rem;
-
-    background-image: url(IMG/office-620817_640.png); 
-    /* Fotokreditt: https://pixabay.com/no/photos/kontor-notater-notisblokk-gr%C3%BCnder-620817/  *//*
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-}
-
-.portfolio__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 
 #portfolio__size {
     min-height: 400px;
@@ -599,12 +583,8 @@ input[type="text"] {
     gap: 1.5rem;
 }
 
-.card__container > * {
-    flex: 1 1 350px;
-}
 
 .article__cards {
-    background-color: transparent;
     object-fit: cover;
     object-position: center;
     margin-top: 1rem;
@@ -613,7 +593,7 @@ input[type="text"] {
     flex-direction: column;
 
     min-width: 200px;
-    max-width: 692px;
+    max-width: 692px; /* C-krav: max bredde 692px*/ 
     height: auto;
 }
 
@@ -836,12 +816,13 @@ footer {
 
     .portfolio__title {
         font-size: 2rem;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     /* ---- artikkelkort --- */ 
-
-
+    .card__container > * {
+        flex: 1 1 350px;
+    }
 
     /* ----------------------    F O O T E R   -------------------- */ 
 
@@ -865,40 +846,5 @@ footer {
     font-size: 2rem;
 }
 
-
-    /*
-   .grid {
-    display: grid;
-    grid-template-columns: 10% 1fr 10%;
-    }
-
-    
-    .top__section {
-        width: 100%;
-        max-height: 500px;
-    
-        position: relative;
-
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    .index__section {
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-
-    .service__section {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
-
-    .portfolio__section {
-        flex-wrap: wrap;
-    }
-
-    .signup {
-
-    }*/
   
 }
