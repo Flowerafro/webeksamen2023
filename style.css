@@ -319,7 +319,9 @@ ul {
     align-content: center;
 
     width: 100%;
-    height: 100vh; /* bakgrunnsbildet i demoen dekker nesten hele skjermens lenge */
+    height: fit-content; 
+
+    padding: 1rem;
 
     background-image: url(https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg); /*https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg */
     background-size: cover;
@@ -335,7 +337,7 @@ ul {
 .about__container {
     display: flex;
     flex-direction: column;
-    padding: 3.5rem;
+    margin: 2rem;
     text-align: left;
 }
 
@@ -355,9 +357,11 @@ ul {
 }
 
 .about__text {
+    width: 90%;
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
+    line-height: 1.4rem;
     text-wrap: wrap;
 }
 
@@ -623,6 +627,7 @@ footer {
 /* MEDIA QUERY - Hvordan det skal se ut i desktop */
 /* ------------------------------------------------------------ */ 
 
+
 @media screen and (min-width: 600px) {
 
     body {
@@ -729,7 +734,8 @@ footer {
     /* -------------------   A B O U T.H T M L  ------------------- */
 
     .about {
-        height: 55vh; /* bakgrunnsbildet opptar ca halv skjermen, view width-en. */
+        width: 100%;
+        height: fit-content;
         align-items: end;
     }
 
