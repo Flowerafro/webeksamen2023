@@ -89,6 +89,20 @@ ul {
 
 /* section 1 - compelling headline + section 1 Portfolio*/ 
 
+.top__section {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+
+    position: relative;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .top__section::before {
     content: "";
     background-image: url(IMG/office-620817_640.png); 
@@ -106,17 +120,6 @@ ul {
     position: absolute;
 }
 
-    /* Bakgrunnsbildet er ikke statisk  - kode kommer */
-    /* section 1 - compelling headline */
-
-.top__section {
-    width: 100%;
-    height: auto;
-    padding: 1rem;
-
-    position: relative;
-}
-
 .top__container {
     display: flex;
     flex-direction: column;
@@ -131,21 +134,7 @@ ul {
     text-align: center;
 }
 
-
-
-/*  SEKSJON 1 -- Overskrift og bilde */
-
-/* --- Dette skulle være til <img> på html
-.image {
-    width: 100%;
-    height: fit-content;
-    opacity: 0.5;
-
-     position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}*/
+/* ---- seksjon 1 compelling headling --- */ 
 
 .title__main {
     font-size: 2rem;
@@ -301,7 +290,6 @@ ul {
     font-weight: 800;
     font-size: 1.1rem;
     text-align: center;
-    
 }
 
 .signup__form {
@@ -517,14 +505,13 @@ input[type="text"] {
     padding: 2rem;
 }
 
-
-
-
 /* ------------------------------------------------------------ */ 
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
 
+/* section 1: se seksjon 1 under Index.html */
 
+/*
 .top__portfolio {
     width: 100%;
     height: fit-content;
@@ -537,36 +524,24 @@ input[type="text"] {
     padding: 2rem;
 
     background-image: url(IMG/office-620817_640.png); 
-    /* Fotokreditt: https://pixabay.com/no/photos/kontor-notater-notisblokk-gr%C3%BCnder-620817/  */
+    /* Fotokreditt: https://pixabay.com/no/photos/kontor-notater-notisblokk-gr%C3%BCnder-620817/  *//*
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
 }
 
-.portfolio {
-    position: relative;
-    text-align: center;
-    color: var(--svart);
-}
-
-.title__port {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
 .portfolio__container {
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+
+#portfolio__size {
+    min-height: 400px;
 }
 
-
-
-/* ----- explore previous jobs ----- */
+/* section 2: explore previous jobs */
 
 .portfolio__section {
     padding: 1rem 3rem 2rem 3rem;
