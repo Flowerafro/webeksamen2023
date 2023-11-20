@@ -82,15 +82,18 @@ ul {
     color: var(--svart);
 }
 
+
 /* ------------------------------------------------------------ */ 
 /* ------------------   I N D E X. H T M L  ------------------- */ 
 /* ------------------------------------------------------------ */ 
 
 /* section 1 - compelling headline + section 1 Portfolio*/ 
+
 .top__section::before {
     content: "";
     background-image: url(IMG/office-620817_640.png); 
     /* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,6 +108,7 @@ ul {
 
     /* Bakgrunnsbildet er ikke statisk  - kode kommer */
     /* section 1 - compelling headline */
+
 .top__section {
     width: 100%;
     height: auto;
@@ -127,13 +131,36 @@ ul {
     text-align: center;
 }
 
+
+
+/*  SEKSJON 1 -- Overskrift og bilde */
+
+/* --- Dette skulle være til <img> på html
+.image {
+    width: 100%;
+    height: fit-content;
+    opacity: 0.5;
+
+     position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}*/
+
 .title__main {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.title__index {
    margin: 1rem;
    padding: 1.2rem;
    
    line-height: 2.4rem;
    font-size: 2rem;
 }
+
+/* overskrift undertittel og links */
 
 .top__text {
     width: fit-content;
@@ -313,6 +340,12 @@ ul {
 /* ------------------------------------------------------------ */ 
 
 /* --- about header picture --- */
+
+.image__about {
+    width: 100%;
+    height: fit-content;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -356,6 +389,7 @@ ul {
     text-align: left;
     text-wrap: wrap;
     line-height: 1.3rem;
+
 }
 
 .about__text {
@@ -490,9 +524,10 @@ input[type="text"] {
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
 
+
 .top__portfolio {
     width: 100%;
-    height: 40vh;
+    height: fit-content;
     
     display: flex;
     flex-direction: column;
@@ -509,11 +544,27 @@ input[type="text"] {
     opacity: 0.8;
 }
 
+.portfolio {
+    position: relative;
+    text-align: center;
+    color: var(--svart);
+}
+
+.title__port {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .portfolio__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 /* ----- explore previous jobs ----- */
 
