@@ -57,8 +57,8 @@ header {
     justify-content: center;
     align-items: center;
     background-color: var(--hvit);
+    padding-block: 1rem;
     
-    padding: 1rem 0rem 1rem 0rem;
 }
 
 ul {
@@ -400,8 +400,7 @@ ul {
     font-size: 1.1rem;
     font-weight: 700;
 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-block: 1rem;
 
     text-align: left;
     text-wrap: wrap;
@@ -430,8 +429,7 @@ ul {
 /* ---- Client ---- */
 
 .client__section {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+   padding-block: 2.5rem;
 
     display: flex;
     flex-direction: column;
@@ -457,7 +455,7 @@ ul {
 
 .title__contact {
     margin-top: 1rem;
-    padding-top: 1rem;
+    padding-block: 1rem;
     font-size: 1.1rem;
 }
 
