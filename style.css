@@ -35,7 +35,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
 
-    min-width: 375px;
+    min-width: 300px;
     max-width: 1600px; 
 }
 
@@ -44,8 +44,8 @@ body {
 }
 
 #logo {
-    width: 150px;
-    margin: 1rem;
+    width: 100px;
+    margin: 0.5rem;
 }
 
 /* ------------------------------------------------------------ */ 
@@ -53,17 +53,20 @@ body {
 /* ------------------------------------------------------------ */ 
 
 header {
-    background-color: var(--hvit);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--hvit);
     
     padding: 1rem 0rem 1rem 0rem;
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     text-align: center;
 }
@@ -74,7 +77,8 @@ ul {
 }
 
 .list__items {
-    margin: 1.1rem;
+   width: fit-content;
+    margin: 0.8rem;
     font-size: 1.1rem;
 }
 
@@ -97,7 +101,7 @@ ul {
 .active::after {
     content: "";
     display: block;
-    width: 90px;
+    width: auto;
     height: 3px;
     margin: 0 auto;
     
@@ -595,12 +599,11 @@ iframe {
 }
 
 /* ----- artikkelkort ------ */
-/* ---- finnes også ett på index.hmtl --- */ 
 
 .card__container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 
@@ -670,7 +673,7 @@ footer {
 /* ------------------------------------------------------------ */ 
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
 
     body {
         display: grid;
