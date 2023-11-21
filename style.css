@@ -23,6 +23,8 @@
     margin: 0;
     padding: 0;
 
+    max-width: 1600px; 
+
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -34,9 +36,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-
-    min-width: 300px;
-    max-width: 1600px; 
 }
 
 #background__yellow {
@@ -63,12 +62,13 @@ header {
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     list-style: none;
     text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
 }
 
 .links {
@@ -615,7 +615,6 @@ iframe {
     display: flex;
     flex-direction: column;
 
-    min-width: 200px;
     max-width: 692px; /* C-krav: max bredde 692px*/ 
     height: auto;
 }
@@ -698,6 +697,11 @@ footer {
     ul {
         display: flex;
         flex-direction: row;
+    }
+
+    .navbar {
+        display: flex;
+        display: flex;
     }
 
     #btn__contact {
