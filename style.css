@@ -831,6 +831,9 @@ footer {
         display: flex;
         margin: 1rem;
         justify-content: center;
+        gap: 1.5rem;
+
+        padding: 2rem;
     }
 
     .contact {

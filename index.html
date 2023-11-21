@@ -34,10 +34,10 @@
         <!-- For å nå A-krav skal dette bildet være en video som går på autoplay/ være muted sjekk ut boka HTML/CSS s.214-->
         <nav>
             <ul class="navbar">
-                <li class="list__items"><a href="index.html" class="links active" title="Forside - Webutviklingseksamen">Home</a></li>
-                <li class="list__items"><a href="products.html" class="links" title="Products - Webutviklingseksamen">Portfolio</a></li>
-                <li class="list__items"><a href="about.html" class="links" title="About - Webutviklingseksamen">About</a></li>
-                <li class="list__items"><a href="about.html#contact-us" id="btn__contact" class="links" title="Find contact information here">Contact</a></li>
+                <li class="list__items"><a href="index.html" class="links active" title="Forside - Webutviklingseksamen" tabindex="1">Home</a></li>
+                <li class="list__items"><a href="products.html" class="links" title="Products - Webutviklingseksamen" tabindex="2">Portfolio</a></li>
+                <li class="list__items"><a href="about.html" class="links" title="About - Webutviklingseksamen" tabindex="3">About</a></li>
+                <li class="list__items"><a href="about.html#contact-us" id="btn__contact" class="links" title="Find contact information here" tabindex="4">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -47,7 +47,7 @@
                 <article class="top__container">
                     <h1 class="title__main">Compelling headline</h1>
                     <p class="top__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam reiciendis nemo, mollitia voluptate eaque amet quod. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam voluptatem sapiente perferendis. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam. </p>
-                    <a href="#index-services" class="btn__yellow" id="btn__top" title="Click to check out our services">Read more about our services</a>
+                    <a href="#index-services" class="btn__yellow" id="btn__top" title="Click to check out our services" tabindex="5">Read more about our services</a>
                 </article>
             </section>
 
@@ -60,7 +60,7 @@
 
             <section class="section__left" id="background__yellow">
                 <article>
-                <img src="https://placehold.co/400" alt="placeholder image 400x400" title="This is a placeholder image"> 
+                <img src="https://placehold.co/400" alt="placeholder image 400x400" title="This is a placeholder image" tabindex="6"> 
                 </article>
                 
                 <article class="article__textleft">
@@ -101,20 +101,20 @@
                     <h2 class="title__sub">Sign up for our newsletter</h2>
                 </article>
                 <form method="post" action="#" autocomplete="on" class="signup__form">
-                    <input type="text" name="email" id="email" placeholder="jonsnow@nightwatch.wall" title="Write your email here">
-                    <label for="email"><a href="#" id="btn__signup" title="Sign up for newslettere here">Sign me up!</a></label>
+                    <input type="text" name="email" id="email" placeholder="jonsnow@nightwatch.wall" title="Write your email here" tabindex="7">
+                    <label for="email"><a href="#" id="btn__signup" title="Sign up for newslettere here" aria-label="signup" tabindex="8">Sign me up!</a></label>
                 </form>
             </section>
         </section> <!--slutten på grid-container-->
     </main>
     <footer>
         <section class="footer__section">
-            <a href="index.html" title="Refresh home page"><img src="IMG/logo1.png" alt="logofooterandhomelink" width="80px"></a>
+            <a href="index.html" title="Refresh home page" aria-label="Link to home page"><img src="IMG/logo1.png" alt="logofooterandhomelink" width="80px"></a>
             <p class="footer__copyright"> Companyname Copyright 2023</p>
             <ul class="footer__some">
-                <li><a href="https://www.facebook.com/" target="_blank" title="Open Facebook.com"><i class="fa-brands fa-square-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/?hl=en" target="_blank" title="Open Instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/"  target="_blank" title="Open Linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank" title="Open Facebook.com" tabindex="9" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=en" target="_blank" title="Open Instagram.com" tabindex="10" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/"  target="_blank" title="Open Linkedin.com" tabindex="11" aria-label="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
             </ul>
         </section>
     </footer>
