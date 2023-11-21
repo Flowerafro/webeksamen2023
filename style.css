@@ -605,6 +605,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
 
@@ -616,8 +617,7 @@ iframe {
     display: flex;
     flex-direction: column;
 
-    max-width: 692px; /* C-krav: max bredde 692px*/ 
-    min-width: 350px;
+    max-width: 692px; /* C-krav: max bredde 692px*/
     height: auto;
 }
 
@@ -886,7 +886,8 @@ footer {
     }
 
     .article__cards:hover {
-        
+        transform: scale(1.05);
+        transform-origin: center;
         transition: 1800ms ease;
     }
 
