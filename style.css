@@ -131,9 +131,8 @@ ul {
 
 .top__section::before {
     content: "";
-    background-image: url(IMG/office-620817_640.jpeg); 
-    /* Bildet er tatt av <a href="https://pixabay.com/no/users/freephotocc-2275370/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Free Photos</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1280537">Pixabay</a>*/
-    
+    background-image: url(IMG/laptop-2557572_640\(1\).jpg); 
+    /* Bildekreditt: https://pixabay.com/no/photos/laptop-mac-datamaskin-nettleser-2557572/  Fotograf: https://pixabay.com/no/users/stocksnap-894430/ */    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,6 +153,7 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin: 1rem;
     position: relative;
 
     color: var(--graasvart);
@@ -374,8 +374,8 @@ ul {
 
     padding: 1rem;
 
-    background-image: url(IMG/office-620817_640.jpeg); 
-    /* Fotokreditt:     /* Fotokreditt: https://pixabay.com/no/photos/kontor-notater-notisblokk-gr%C3%BCnder-620817/  https://cdn.pixabay.com/photo/2015/02/02/11/08/office-620817_1280.jpg */
+    background-image: url(IMG/laptop-2557572_640\(1\).jpg); 
+    /* Bildekreditt: https://pixabay.com/no/photos/laptop-mac-datamaskin-nettleser-2557572/ Fotograf: https://pixabay.com/no/users/stocksnap-894430/*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
