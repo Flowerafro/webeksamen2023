@@ -23,8 +23,6 @@
     margin: 0;
     padding: 0;
 
-    max-width: 1600px; 
-
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,6 +34,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
+
+    max-width: 1600px;
 }
 
 #background__yellow {
@@ -68,7 +68,9 @@ ul {
 
 .navbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .links {
@@ -120,7 +122,6 @@ ul {
     padding: 1rem;
 
     position: relative;
-
 
     display: flex;
     flex-direction: column;
@@ -616,6 +617,7 @@ iframe {
     flex-direction: column;
 
     max-width: 692px; /* C-krav: max bredde 692px*/ 
+    min-width: 350px;
     height: auto;
 }
 
@@ -701,7 +703,7 @@ footer {
 
     .navbar {
         display: flex;
-        display: flex;
+        flex-direction: row;
     }
 
     #btn__contact {
@@ -880,7 +882,12 @@ footer {
 
     /* ---- artikkelkort --- */ 
     .card__container > * {
-        flex: 1 1 350px;
+        flex: 1 1 30%;
+    }
+
+    .article__cards:hover {
+        
+        transition: 1800ms ease;
     }
 
     /* ----------------------    F O O T E R   -------------------- */ 
