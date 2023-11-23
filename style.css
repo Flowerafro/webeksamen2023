@@ -36,8 +36,6 @@ body {
 
     min-width: 375px;
     max-width: 1600px;
-
-    border: red 1px solid;
     
 }
 
@@ -145,6 +143,9 @@ ul {
 .heading__container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
     padding: 2rem;
     width: 100%;
@@ -153,7 +154,7 @@ ul {
 }
 
 .heading__title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 1rem;
 }
 
@@ -165,64 +166,18 @@ ul {
 #btn__index {
     background-color: var(--gull-gul);
     color: var(--graasvart);
-    text-align: left;
-    line-height: 1.3rem;
-
+    
+    padding: 0.5rem 4.5rem 0.5rem 1rem;
+    margin: 1rem;
     width: 80%;
 
+    font-size: 0.9rem;
     font-weight: 700;
+    line-height: 1.3rem;
+    text-align: left;
     text-wrap: wrap;
     text-decoration: none;
-
-    padding: 0.5rem 4.5rem 0.5rem 1rem;
-
-    margin: 1rem;
 }
-
-/* 
-.top__section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    min-height: 400px;
-    padding: 1rem;
-
-    position: relative;
-}
-
-.top__section::before {
-    content: "";
-    background-image: url(IMG/laptop-2557572_640\(1\).jpg); 
-    /* Bildekreditt: https://pixabay.com/no/photos/laptop-mac-datamaskin-nettleser-2557572/  Fotograf: https://pixabay.com/no/users/stocksnap-894430/ */    
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-
-    opacity: 0.3;
-    position: absolute;
-}
-
-.top__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    position: relative;
-
-    color: var(--graasvart);
-    text-align: center;
-    font-size: 0.9rem;
-    text-align: center;
-}*/
- 
 
 /* section 2 - enganging subheading */
 
@@ -232,12 +187,12 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 1rem; 
+
 }
 
 .subheading__container {
-    margin: 1rem;
-    padding: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .subheading__title {
@@ -245,7 +200,7 @@ ul {
     padding: 1rem;
     line-height: 1.7rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 /* section 3 - about our company */
@@ -255,7 +210,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem; 
+    padding: 2rem; 
 
     background-color: var(--gull-gul);
 }
@@ -265,7 +220,7 @@ ul {
     flex-direction: column;
     width: 80%;
     height: auto;
-    padding: 2.5rem;
+    padding: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -421,9 +376,9 @@ ul {
 #btn__about {
     background-color: var(--gull-gul);
     color: var(--graasvart);
-    text-align: left;
     line-height: 1.3rem;
     font-weight: 700;
+    text-align: left;
     text-wrap: wrap;
     text-decoration: none;
     
@@ -570,10 +525,7 @@ iframe {
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
 
-/* section 1: Heading Portfolio */
-
-
-
+/* section 1: Heading Portfolio - samme som index.html section 1 */
 
 /* section 2: explore previous jobs */
 
@@ -586,8 +538,6 @@ iframe {
 
     margin: 0;
     padding: 3rem 3rem 0rem 3rem;
-
-    border: green solid 2px;
 }
 
 .portfolio__box {
