@@ -451,7 +451,7 @@ input[type="text"] {
     background-color: var(--gull-gul);
     color: var(--svart);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 0.8rem;
+    padding: 0.5rem;
     border: none;
     text-decoration: none;
     text-align: left;
@@ -804,6 +804,11 @@ footer {
 
     #btn__about {
         width: fit-content;
+    }
+
+    #btn__about:hover {
+        background-color: var(--graasvart);
+        color: var(--gull-gul);
     }
 
     /* sec 2: service - samme som index sec 4 */
