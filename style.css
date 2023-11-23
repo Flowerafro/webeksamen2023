@@ -33,10 +33,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    
+
+    min-width: 375px;
     max-width: 1600px;
 
-    border: red 2px solid;
+    border: red 1px solid;
     
 }
 
@@ -46,6 +47,7 @@ body {
 
 #logo {
     width: 100px;
+    height: auto;
     margin: 0.5rem;
 }
 
@@ -357,11 +359,6 @@ ul {
 
 /* --- about header picture --- */
 
-.image__about {
-    width: 100%;
-    height: fit-content;
-}
-
 .about {
     display: flex;
     flex-direction: column;
@@ -369,19 +366,18 @@ ul {
     align-content: center;
 
     width: 100%;
-    height: fit-content; 
+    height: auto; 
 
-    padding: 1rem;
+    padding: 3rem;
 
     background-image: url(IMG/laptop-2557572_640\(1\).jpg); 
-    /* Bildekreditt: https://pixabay.com/no/photos/laptop-mac-datamaskin-nettleser-2557572/ Fotograf: https://pixabay.com/no/users/stocksnap-894430/*/
+    /* Bildekreditt: https://pixabay.com/no/photos/laptop-mac-datamaskin-nettleser-2557572/ Fotograf: https://pixabay.com/no/users/stocksnap-894430/*/ 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about__section {
-    margin: 2.5rem;
     background-color: var(--hvit);
     opacity: 0.8;
 }
@@ -389,8 +385,8 @@ ul {
 .about__container {
     display: flex;
     flex-direction: column;
-    margin: 2rem;
     text-align: left;
+    padding: 2rem;
 }
 
 .about__title {
@@ -429,10 +425,10 @@ ul {
 /* ---- Client ---- */
 
 .client__section {
-   padding-block: 2.5rem;
-
     display: flex;
     flex-direction: column;
+
+    padding-block: 2.5rem;
 }
 
  .title__center{
@@ -444,6 +440,15 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    margin: 1rem;
+
+    border: green 1px solid;
+}
+
+.client__logos img {
+    width: 40%;
+    border: blue 1px solid;
 }
 
 /* ------ Contact us + contact information */
@@ -485,8 +490,9 @@ input[type="text"] {
     padding: 0.8rem;
     border: none;
     text-decoration: none;
+    text-align: left;
     font-weight: 700;
-    width: 40%;
+    max-width: 45%;
     height: auto;
     margin-top: 1rem;
 }
@@ -591,9 +597,6 @@ iframe {
 .portfolio__jobs {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
-
-    margin-top: 2rem;
 }
 
 .portfolio__link {
@@ -837,6 +840,10 @@ footer {
         gap: 1.5rem;
 
         padding: 2rem;
+    } 
+
+    .client__logos img {
+        width: fit-content;
     }
 
     .contact {
@@ -919,8 +926,6 @@ footer {
     font-size: 2rem;
 }
 
-
-  
 }
 
 @media screen and (max-width: 550px) {
@@ -928,4 +933,9 @@ footer {
         max-width: 100%;
         height: 100%;
     }     
+
+    .placeholder__img, img {
+        max-width: 100%;
+        height: 100%;
+    }
 }
