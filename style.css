@@ -9,7 +9,6 @@
     --graasvart: #252525;
     --svart: #000;
     --hvit: #fff;
-    --hvitOpacity: #ffffffd7;
 
     --lightgrey: #f3f3f3;
     /* Denne lyse gråfargen er lagt til da det er noen steder på nettstedet hvor det er en lysgrå-farge, som ikke finnes i fargekodene oppgitt i oppgaven*/
@@ -34,8 +33,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-
+    
     max-width: 1600px;
+
+    border: red 2px solid;
+    
 }
 
 #background__yellow {
@@ -141,8 +143,6 @@ ul {
     bottom: 0px;
     left: 0px;
 
-    width: 100%;
-
     opacity: 0.3;
     position: absolute;
 }
@@ -153,7 +153,6 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    margin: 1rem;
     position: relative;
 
     color: var(--graasvart);
@@ -383,7 +382,8 @@ ul {
 
 .about__section {
     margin: 2.5rem;
-    background-color: var(--hvitOpacity);
+    background-color: var(--hvit);
+    opacity: 0.8;
 }
 
 .about__container {
@@ -546,6 +546,8 @@ iframe {
 /* ----------------   P R O D U C T S.H T M L  ---------------- */ 
 /* ------------------------------------------------------------ */ 
 
+
+
 /* section 1: se seksjon 1 under Index.html */
 
 #portfolio__size {
@@ -560,8 +562,11 @@ iframe {
     
     width: 100%;
     height: auto;
+
     margin: 0;
     padding: 3rem 3rem 0rem 3rem;
+
+    border: green solid 2px;
 }
 
 .portfolio__box {
@@ -608,10 +613,9 @@ iframe {
     margin-top: 1rem;
 }
 
-
 .article__cards {
     object-fit: cover;
-    object-position: center;
+    object-position: left;
     margin-top: 1rem;
 
     display: flex;
@@ -673,7 +677,6 @@ footer {
 /* MEDIA QUERY - Hvordan det skal se ut i desktop */
 /* ------------------------------------------------------------ */ 
 
-
 @media screen and (min-width: 550px) {
 
     body {
@@ -729,7 +732,7 @@ footer {
   /* ------------------   I N D E X.H T M L  ------------------- */ 
 
     .top__container {
-        padding: 2rem;
+        padding: 3rem;
     }
 
     .title__main {
@@ -916,5 +919,13 @@ footer {
     font-size: 2rem;
 }
 
+
   
+}
+
+@media screen and (max-width: 550px) {
+    .article__cards, img {
+        max-width: 100%;
+        height: 100%;
+    }     
 }
