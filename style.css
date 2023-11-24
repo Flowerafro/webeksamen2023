@@ -50,37 +50,6 @@ body {
 }
 
 
-/* --------------------  Skip to top button  ------------------*/
-
-.skip {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-
-    display: flex;
-    justify-content: end;
-
-    padding: 1rem;
-}
-
-.skip__button {
-    width: 40px;
-    height: 60px;
-
-    font-size: 1.6rem;
-    color: var(--hvit);
-    background-color: var(--svart);
-    border: var(--svart) 2px solid;
-    border-radius: 3px;
-
-    text-decoration: none;
-}
-
-.skip__button .fa-arrow-up {
-    color: var(--hvit);
-}
-
-
 /* ------------------------------------------------------------ */ 
 /* ----------------------   H E A D E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
@@ -629,6 +598,32 @@ iframe {
     margin-bottom: 1.5rem;
 }
 
+   /* --------------------  Skip to top button  ------------------*/
+
+   .skip {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    margin: 1rem;
+    padding: 0.9rem;
+
+    background-color: var(--svart);
+    border: var(--svart) 2px solid;
+    border-radius: 3px;
+}
+
+.skip__button {
+    font-size: 1.6rem;
+    color: var(--hvit);
+    text-decoration: none;
+}
+
+.skip__button .fa-arrow-up {
+    color: var(--hvit);
+}
+
+
 /* ------------------------------------------------------------ */ 
 /* ----------------------   F O O T E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
@@ -930,6 +925,7 @@ footer {
         transform-origin: center;
         transition: 1800ms ease;
     }
+
 
     /* ----------------------    F O O T E R   -------------------- */ 
 
