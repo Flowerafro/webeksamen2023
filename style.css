@@ -899,7 +899,8 @@ footer {
     } 
 
     .client__logos img {
-        width: fit-content;
+        width: 10%;
+        height: auto;
         margin: 1.5rem;
     }
 
