@@ -117,6 +117,11 @@ ul {
 /* ------------------   I N D E X. H T M L  ------------------- */ 
 /* ------------------------------------------------------------ */ 
 
+/* section 1 - video */
+.heading__video {
+    display: none;
+}
+
 /* section 1 - compelling headline*/ 
 
 .heading {
@@ -677,6 +682,10 @@ footer {
         grid-template-rows: 5% 1fr 5%;
     }
 
+    .text__maxwidth {
+        width: min(90%, 700px);
+    }
+
    /* ------------------   H E A D E R  &  N A V  ------------------- */ 
 
     header {
@@ -723,17 +732,54 @@ footer {
 
   /* ------------------   I N D E X.H T M L  ------------------- */ 
 
-    /* sec 1: headiing */
+    /* sec 1: video */
+
+    .heading {
+        display: none;
+    }
+
+    .heading__video {
+        display: block;
+        width: 100%;
+        margin: 0;
+        background-color: var(--hvit);
+    }
+
+    .heading__videocontainer {
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        width: 100%;
+        height: 500px;
+
+        background-color: #ffffff7d;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+        height: 500px;
+
+        object-fit: cover;
+        object-position: center;
+    }
+
+    /* sec 1: heading */
+    
     .heading__title {
         font-size: 2.4rem;
-
-    }
-    .heading__text {
-        width: 50%;
     }
 
     #btn__index {
-        width: 20%;
+        width: fit-content;
         height: auto;
         padding: 0.8rem;
         text-align: center;
