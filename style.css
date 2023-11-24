@@ -46,7 +46,7 @@ body {
 #logo {
     width: 100px;
     height: auto;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 
@@ -752,7 +752,7 @@ footer {
         justify-content: center;
         align-items: center;
 
-        margin: 0;
+        margin: 1rem;
         padding-left: 2rem;
         padding-right: 2rem;
 
