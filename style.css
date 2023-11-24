@@ -169,7 +169,7 @@ ul {
     font-size: 0.9rem;
 }
 
-#btn__index {
+.btn__index {
     background-color: var(--gull-gul);
     color: var(--graasvart);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -777,7 +777,7 @@ footer {
         font-size: 2.4rem;
     }
 
-    #btn__index {
+    .btn__index {
         width: fit-content;
         height: auto;
         padding: 0.8rem;
@@ -785,7 +785,7 @@ footer {
         text-wrap: nowrap;
     }
 
-    #btn__index:hover {
+    .btn__index:hover {
         background-color: var(--graasvart);
         color: var(--gull-gul);
     }
