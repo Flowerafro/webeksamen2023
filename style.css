@@ -635,6 +635,7 @@ iframe {
 footer {
     background-color: var(--graasvart);
     width: 100%;
+    height: auto;
    
     padding: 1rem;
 }
