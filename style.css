@@ -49,6 +49,38 @@ body {
     margin: 0.5rem;
 }
 
+
+/* --------------------  Skip to top button  ------------------*/
+
+.skip {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    display: flex;
+    justify-content: end;
+
+    padding: 1rem;
+}
+
+.skip__button {
+    width: 40px;
+    height: 60px;
+
+    font-size: 1.6rem;
+    color: var(--hvit);
+    background-color: var(--svart);
+    border: var(--svart) 2px solid;
+    border-radius: 3px;
+
+    text-decoration: none;
+}
+
+.skip__button .fa-arrow-up {
+    color: var(--hvit);
+}
+
+
 /* ------------------------------------------------------------ */ 
 /* ----------------------   H E A D E R  ---------------------- */ 
 /* ------------------------------------------------------------ */ 
