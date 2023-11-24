@@ -371,7 +371,6 @@ ul {
 }
 
 .about__text {
-    width: 90%;
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.4rem;
@@ -734,7 +733,7 @@ footer {
 
     /* sec 1: video */
 
-    .heading {
+    .header__invisible {
         display: none;
     }
 
