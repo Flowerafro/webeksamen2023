@@ -899,9 +899,12 @@ footer {
     } 
 
     .client__logos img {
-        width: 10%;
+        width: fit-content;
         height: auto;
         margin: 1.5rem;
+
+        object-fit: cover;
+        object-position: center;
     }
 
     /* sec 4: contact us */
