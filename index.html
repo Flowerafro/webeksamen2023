@@ -30,7 +30,8 @@
 </head>
 <body>
     <header id="top">
-        <a href="index.html" title="Refresh home page"><img src="IMG/logo1.png" alt="Link to home page" id="logo"></a> <!--alt-tag: Innhold-->
+        <a href="index.html" title="Refresh home page">
+            <img src="IMG/logo1.png" alt="Link to home page" id="logo"></a> <!--alt-tag: Innhold-->
         <nav role="navigation">
             <ul class="navbar" role="menu" itemscope itemtype="https://schema.org/BreadcrumbList">
                 <li class="list__items" role="menuitem" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -58,14 +59,19 @@
     </header>
     <main>
         
-       <section class="heading__video">
-            <article class="heading__videocontainer">
+       <section class="heading__video" itemscope itemtype="https://schema.org/VideoObject">
+            <section class="heading__videocontainer">
                 <h1 class="heading__title" itemprop="name">Compelling headline</h1>
-                    <p class="text__maxwidth" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam reiciendis nemo, mollitia voluptate eaque amet quod. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam voluptatem sapiente perferendis. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam. </p>
+                    <p class="text__maxwidth" itemprop="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam reiciendis nemo, mollitia voluptate eaque amet quod. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam voluptatem sapiente perferendis. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam. </p>
                     <a href="#index-services" class="btn__index" title="Click to check out our services" role="button">Read more about our services</a>
-            </article>
-                <video src="IMG/mountains.mov" type="video/mp4" title="video of mountains and parachutes" aria-label="muted video in background" autoplay muted loop >
+            </section>
+            <section>
+                <video src="IMG/mountains.mov" type="video/mp4" title="video of mountains and parachutes" aria-label="muted video in background" autoplay muted loop itemprop="thumbnailUrl">
                 </video>
+                <meta itemprop="duration" content="PT0M11S">
+                <meta itemprop="uploadDate" content="2023-11-26T14:00:25Z">
+                <meta itemprop="contentUrl" content="https://itstud.hiof.no/~linehenr/WEBEX/index.html">
+            </section>
        </section>
 
             <section class="heading header__invisible">
