@@ -34,11 +34,24 @@
         <a href="index.html" title="Click here to go back to Home page">
             <img src="IMG/logo1.png" alt="Link to home page" id="logo"></a><!--alt-tag: innhold-->
         <nav role="navigation">
-            <ul class="navbar" role="menu">
-                <li class="list__items" role="menuitem"><a href="index.html" class="links" aria-label="Home" title="Forside - Webutviklingseksamen">Home</a></li>
-                <li class="list__items" role="menuitem"><a href="products.html" class="links" aria-label="Portfolio" title="Portfolio - Webutviklingseksamen">Portfolio</a></li>
-                <li class="list__items" role="menuitem"><a href="about.html" class="links active" aria-label="About" title="About - Webutviklingseksamen">About</a></li>
-                <li class="list__items" role="menuitem"><a href="about.html#contact-us" class="links" id="btn__contact" aria-label="contact" title="Find contact information here">Contact</a></li>
+            <ul class="navbar" role="menu" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="list__items" role="menuitem" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="index.html" class="links" aria-label="Home" title="Forside - Webutviklingseksamen" itemprop="item">
+                        <span itemprop="name">Home</span></a>
+                        <meta itemprop="position" content="1"></li>
+                <li class="list__items" role="menuitem" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="products.html" class="links" aria-label="Portfolio" title="Portfolio - Webutviklingseksamen" itemprop="item">
+                        <span itemprop="name">Portfolio</span></a>
+                        <meta itemprop="position" content="2"></li>
+                <li class="list__items" role="menuitem" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="about.html" class="links active" aria-label="About" title="About - Webutviklingseksamen" itemprop="item">
+                        <span itemprop="name">About</span></a>
+                        <meta itemprop="position" content="3"></li>
+                <li class="list__items" role="menuitem" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="about.html#contact-us" class="links" id="btn__contact" aria-label="contact" title="Find contact information here" itemprop="item">
+                        <span itemprop="name">Contact</span></a>
+                        <meta itemprop="position" content="4">
+                    </li>
             </ul>
         </nav>
     </header>
