@@ -666,8 +666,6 @@ footer {
     justify-content: center;
 
     padding: 1rem;
-
-    border: red 2px solid;
 }
 
 .fa-square-facebook, 
@@ -676,8 +674,6 @@ footer {
     color: var(--hvit);
     margin: 1rem;
     font-size: 1.5rem;
-    border: red 2px solid;
-
 }
 
 
