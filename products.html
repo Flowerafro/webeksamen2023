@@ -59,11 +59,11 @@
         </nav>
     </header>
 
-    <main>
+    <main itemscope itemtype="https://schema.org/CollectionPage">
         <section class="heading">
             <section class="heading__image">
               <article class="heading__container">
-                <h1 class="heading__title">Portfolio</h1>
+                <h1 class="heading__title" itemprop="name">Portfolio</h1>
                 </article>  
             </section>
         </section>
@@ -72,11 +72,13 @@
             <article class="portfolio__box">
                 <h2 class="portfolio__title">Explore previous jobs</h2>
             </article>
-            <article class="portfolio__jobs">
-                <a href="#branding" class="portfolio__link" title="Click to find branding portfolio" role="button">Branding</a>
-                <a href="#design" class="portfolio__link" title="Click to find design portfolio" role="button">Design</a>
-                <a href="#development" class="portfolio__link" title="Click to find development portfolio" role="button">Development</a>
-            </article>
+            <article>
+            <ul class="portfolio__jobs">
+                <li class="portfolio__list"><a href="#branding" class="portfolio__link" title="Click to find branding portfolio" role="button">Branding</a></li>
+                <li class="portfolio__list"><a href="#design" class="portfolio__link" title="Click to find design portfolio" role="button">Design</a></li>
+                <li class="portfolio__list"><a href="#development" class="portfolio__link" title="Click to find development portfolio" role="button">Development</a></li>
+            </ul>
+        </article>
         </section>
 
         <section class="portfolio" id="branding">

@@ -562,14 +562,20 @@ iframe {
 .portfolio__jobs {
     display: flex;
     flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem ;
+}
+
+.portfolio__list {
+  margin-right: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .portfolio__link {
-    margin: 0.4rem;
-    padding: 0.5rem;
     border: var(--svart) 2px solid;
     color: var(--svart);
     text-decoration: none;
+    padding: 0.7rem;
 }
 
 /* ----- artikkelkort ------ */
