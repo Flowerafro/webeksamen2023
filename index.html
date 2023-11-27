@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <!-- Generell metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Forsiden til webutbiklingseksamen">
-    <meta name="author" content="Line Henriksen">
+    <meta name="description" content="Forsiden til webutviklingseksamen">
     <meta name="keywords" content="Eksamen. Webutvikling.">
-
     <!-- Facebook metadata -->
     <meta property="og:title" content="Forside - Webutviklingseksamen">
     <meta property="og:url" content="https://itstud.hiof.no/~linehenr/WEBEX/index.html">
@@ -18,7 +16,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Forside - Webutviklingseksamen">
     <meta name="twitter:summary" content="Webutviklingseksamen - forside">
-    <meta name="twitter:description" content="En forside - eksamen i webutbikling med compelling headline og enganging subheading">
+    <meta name="twitter:description" content="En forside - eksamen i webutvikling med compelling headline og enganging subheading">
     <meta name="twitter:site" content="@LHWEBEX2023">
     <meta name="twitter:image" content="https://pixabay.com/no/photos/laptop-mac-datamaskin-nettleser-2557572/">
     <!-- Styling, fonts o.l-->
@@ -64,15 +62,17 @@
     </header>
     <main>
         
-       <section class="heading__video" itemscope itemtype="https://schema.org/VideoObject">
+       <section class="heading__video">
             <section class="heading__videocontainer">
-                <h1 class="heading__title" itemprop="name">Compelling headline</h1>
-                    <p class="text__maxwidth" itemprop="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam reiciendis nemo, mollitia voluptate eaque amet quod. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam voluptatem sapiente perferendis. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam. </p>
+                <h1 class="heading__title">Compelling headline</h1>
+                    <p class="text__maxwidth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam reiciendis nemo, mollitia voluptate eaque amet quod. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam voluptatem sapiente perferendis. Quia neque explicabo, iste placeat debitis similique ea doloribus ullam. </p>
                     <a href="#index-services" class="btn__index" title="Click to check out our services" role="button">Read more about our services</a>
             </section>
-            <section>
+            <section itemscope itemtype="https://schema.org/VideoObject">
                 <video src="IMG/mountains.mov" type="video/mp4" title="video of mountains and parachutes" aria-label="muted video in background" autoplay muted loop itemprop="thumbnailUrl">
                 </video>
+                <meta itemprop="name" content="mountains">
+                <meta itemprop="description" content="video of flying parachues above moutains">
                 <meta itemprop="duration" content="PT0M11S">
                 <meta itemprop="uploadDate" content="2023-11-26T14:00:25Z">
                 <meta itemprop="contentUrl" content="https://itstud.hiof.no/~linehenr/WEBEX/index.html">
@@ -97,7 +97,7 @@
             </section>
 
             <section class="about__left">
-                <img src="https://placehold.co/400" alt="placeholder image 400x400" title="This is a placeholder image"> <!--alt-tag: "pynt" eller placeholder -->
+                <img src="https://placehold.co/400" alt="placeholder image 400x400" title="This is a placeholder image"> <!--alt-tag: "pynt" /placeholder -->
 
                 <article class="about__leftcontainer">
                     <h2 id="about__lefttitle">About our company</h2>
@@ -154,7 +154,7 @@
     <footer>
         <section class="footer__section">
             <a href="index.html" title="Click to refresh home page" aria-label="Refresh to home page">
-                <img src="IMG/logo1.png" alt="Link to home page" id="logo"></a><!--alt-tag: innhold-->
+                <img src="IMG/logo1.png" alt="Refresh home page" id="logo"></a><!--alt-tag: innhold-->
             <p class="footer__copyright"> Companyrights Companyrights 2023</p>
             <ul class="footer__some" role="list">
                 <li><a href="https://www.facebook.com/" target="_blank" title="Open Facebook.com" aria-label="Facebook" role="link"><i class="fa-brands fa-square-facebook"></i></a></li>
