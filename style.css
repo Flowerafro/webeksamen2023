@@ -12,6 +12,7 @@
 
     --lightgrey: #f3f3f3;
     /* Denne lyse gråfargen er lagt til da det er noen steder på nettstedet hvor det er en lysgrå-farge, som ikke finnes i fargekodene oppgitt i oppgaven*/
+    /* Jeg har for vane å bruke root /fargevariabel, det har jeg lært her: https://www.youtube.com/watch?v=PHO6TBq_auI */
 }
 
 *, *::before, *::after {
@@ -61,8 +62,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: var(--hvit);
-    padding-block: 1rem;
-    
+    padding-block: 1.5rem;
 }
 
 ul {
@@ -86,6 +86,7 @@ ul {
     width: fit-content;
     margin: 0.6rem;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 #btn__contact {
@@ -404,15 +405,16 @@ ul {
     flex-direction: column;
     background-color: var(--gull-gul);
 
-    padding-block: 2.5rem;
+    padding-block: 1rem;
 }
 
 .client__logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 1.5rem;
 
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .client__logos img {
@@ -716,8 +718,12 @@ footer {
         flex-direction: row;
     }
 
+    .list__items {
+        font-size: 1.1rem;
+    }
+
     #btn__contact {
-        padding: 0.7rem;
+        padding: 0.8rem;
     }
 
     #btn__contact:hover {
@@ -899,14 +905,13 @@ footer {
         margin: 1rem;
         justify-content: center;
         gap: 1.5rem;
-
         padding: 2rem;
     } 
 
     .client__logos img {
         width: fit-content;
         height: auto;
-        margin: 1.5rem;
+        margin: 1rem;
 
         object-fit: cover;
         object-position: center;
@@ -970,6 +975,8 @@ footer {
         flex: 1 1 30%; /* grow 1 shrink 1 --> jeg vil at kortene skal vokse og krympe fra flex-basisen. Flex basis er satt til 30% fordi jeg vil ha plass til 3 kort i desktop, 1/3 av 100% */
     }
 
+    /* Ekstern hjelp om Flex Grow: https://www.youtube.com/watch?v=r1IitKbJRFE&t=697s */
+
     .article__cards {
         max-width: 690px; /* artikkelkort skal ikke være mer enn 692px */
     }
@@ -979,7 +986,6 @@ footer {
         height: auto;
     } 
   
-
     .article__cards:hover {
         transform: scale(1.05);
         transform-origin: center;
