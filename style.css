@@ -617,7 +617,7 @@ iframe {
     bottom: 10px;
 
     margin: 1rem;
-    padding: 0.7rem;
+    padding: 0.5rem;
 
     background-color: var(--svart);
     border: var(--svart) 2px solid;
@@ -643,16 +643,15 @@ footer {
     background-color: var(--graasvart);
     width: 100%;
     height: auto;
-   
-    padding: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .footer__section {
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .footer__copyright {
